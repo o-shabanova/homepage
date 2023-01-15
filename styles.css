@@ -113,11 +113,13 @@ body {
     justify-content: center;
 }
 
-.contact-info__item-icon path {
+.contact-info__item-icon path,
+.hobby__item-icon path {
     fill: var(--icon-color);
 }
 
-.contact-info__item-icon {
+.contact-info__item-icon,
+.hobby__item-icon {
     height: 1.1428rem;
     vertical-align: text-bottom;
 }
@@ -246,16 +248,19 @@ body {
     color: var(--secondary-text-color);
 }
 
-.additional-info__languages {
+.additional-info__languages,
+.additional-info__hobbies {
     margin-bottom: 20px;
 }
 
-.additional-info__languages-header {
+.additional-info__languages-header,
+.additional-info__hobbies-header {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
 }
 
-.additional-info__languages-item {
+.additional-info__languages-item,
+.additional-info__hobby-item {
     color: var(--secondary-text-color);
 }
